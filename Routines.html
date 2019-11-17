@@ -1,5 +1,136 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <title> Sleep Routines</title>
+    <script src="Routines.js"></script>
+</head>
+
+<body>
+    <h1>Sleep Routines</h1>
+
+    <p>A sleep routine can be a good way to help wind down and prepare for bed. This is useful for everyone, but especially for anyone who finds they do not get as much sleep as they would like or who would like to adjust their normal sleeping pattern. </p>
+
+    <p>Everyone is different, so it is best to try to find what works best for you. The following steps may help you to do this. </p>    
+    
+    <p>Remember – if you are suffering from severe insomnia or poor sleep that lasts longer than 4 weeks please consult your GP. </p>
+
+    <h2>Step one – your current sleep routine</h2>
+
+    <p>Have a think about what your current sleep pattern is like. Do you go to sleep and wake up at the same time each day? What do you normally do before bed? Are there any things that seem to make your sleep better or worse? How many hours sleep seem to be the right amount for you?</p>
+
+    <p>Keeping a sleep diary can be helpful in noticing these patterns and will give you some ideas about the sleep habits you would like to increase or decrease.</p>
+
+    <p>An example sleep diary template can be found <a href="exampleSleepDiary.pdf">here</a></p>
+
+    <h2>Step two – work out what you would like your sleeping and wake up times to be</h2>
+
+    <p>Having regular sleeping hours can be very helpful, it gets the body and your internal clock used to a set pattern and can improve overall sleep. </p>
+
+    <p>Having a regular wake up time is important, while catching up on sleep by sleeping in can be helpful on occasion, doing so regularly can impact your body’s sleep pattern and cause more irregular sleeping. It is good to find a realistic and comfortable wake up time and try to stick to it where possible.</p>
+
+    <p>If you have a target number of hours sleep you would like to achieve then the best thing to do is work out your wake up time and work back from there. For example, if you need to wake up at 7am for work and would like 8 hours sleep then you will need to work towards an 11pm sleep time. </p>
+
+    <p>You can use the calculator below to help work this out. </p>
+
+    <p>Wake up at:
+    <select id="wakeUpHour">
+        <option value="5">5am</option>
+        <option value="6">6am</option>
+        <option value="7">7am</option>
+        <option value="8">8am</option>
+        <option value="9">9am</option>
+        <option value="10">10am</option>
+        <option value="11">11am</option>
+    </select>
+    </p>
+
+    <p>Sleep for:
+    <select id="sleepFor">
+        <option value="5">5 hours</option>
+        <option value="6">6 hours</option>
+        <option value="7">7 hours</option>
+        <option value="8">8 hours</option>
+        <option value="9">9 hours</option>
+        <option value="10">10 hours</option>
+    </select>
+    </p>
+
+    <button onclick="calculateBedTime()">Calculate Bed Time</button>
+    <p id="bedTime">
+        Bedtime is: ?
+    </p>
+
+    <p>Remember the average adult needs 6-9 hours sleep per night. So you can decide what is best for you.</p>
+
+    <h2>Step three – find a going to bed routine that works for you</h2>
+
+    <p>There is no ‘right way’ to wind down for bed, everyone will find something different to help them relax and get ready. Giving yourself a few regular things that you do each night before bed can help let your body and mind know it is time to switch off, even if they are very small. The examples below show a few ways someone might get ready and relax for sleep.</p>
+
+    <h3>Example 1 - sleep goal: 8 hours</h3>
+
+    <table class='table'>
+        <tr>
+            <td>22:00</td>
+            <td>Stop doing any screen based activities (e.g. tv, phone, computer games)</td>
+        </tr>
+        <tr>
+            <td>22:05</td>
+            <td>Take a shower and brush teeth</td>
+        </tr>
+        <tr>
+            <td>22:20</td>
+            <td>Change into sleep wear</td>    
+        </tr>
+        <tr>
+            <td>22:30</td>
+            <td>Read or listen to an audiobook</td>
+        </tr>
+        <tr>
+            <td>22:55</td>
+            <td>Turn out lights and go to sleep</td>
+        </tr>
+        <tr>
+            <td>07:00</td>
+            <td>Alarm wake up</td>
+        </tr>
+
+    </table>
+
+    
+    <h3>Example 2 - sleep goal: 7 hours</h3>
+
+    <table class='table'>
+        <tr>
+            <td>22:45</td>
+            <td>Start thinking about going to bed. Write down any concerns or tasks for the next day to take them off your mind</td>
+        </tr>
+        <tr>
+            <td>23:00</td>
+            <td>Stop doing any screen based activities</td>
+        </tr>
+        <tr>
+            <td>23:05</td>
+            <td>Brush teeth, wash face and change into sleep wear</td>    
+        </tr>
+        <tr>
+            <td>23:15</td>
+            <td>Put on relaxing music and do breathing exercises</td>
+        </tr>
+        <tr>
+            <td>23:30</td>
+            <td>Asleep</td>
+        </tr>
+        <tr>
+            <td>06:30</td>
+            <td>Alarm wake up</td>
+        </tr>
+
+    </table>
+
+    <p>You can find some more relaxation ideas that might form part of your personal routine on our <a href="Relaxation.html">Relaxtion Page</a></p>
+    <!---check link in above-->
+
+</body>
 
 </html>

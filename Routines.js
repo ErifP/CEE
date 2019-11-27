@@ -15,4 +15,5 @@ function calculateBedTime() {
 
     var bedTimeElement = document. getElementById('bedTime');
     bedTimeElement.innerHTML = "Bedtime is: " + bedTime + ":00";
+    bedTimeElement.classList += "result";
 }

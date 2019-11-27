@@ -4,9 +4,13 @@
 <head>
     <title> Sleep Routines</title>
     <script src="Routines.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300|Tomorrow&display=swap" rel="stylesheet">
 </head>
 
 <body>
+<div class="childText">
     <h1>Sleep Routines</h1>
 
     <p>A sleep routine can be a good way to help wind down and prepare for bed. This is useful for everyone, but especially for anyone who finds they do not get as much sleep as they would like or who would like to adjust their normal sleeping pattern. </p>
@@ -32,7 +36,7 @@
     <p>If you have a target number of hours sleep you would like to achieve then the best thing to do is work out your wake up time and work back from there. For example, if you need to wake up at 7am for work and would like 8 hours sleep then you will need to work towards an 11pm sleep time. </p>
 
     <p>You can use the calculator below to help work this out. </p>
-
+    <div class="sleepCalc">
     <p>Wake up at:
     <select id="wakeUpHour">
         <option value="5">5am</option>
@@ -57,18 +61,22 @@
     </p>
 
     <button onclick="calculateBedTime()">Calculate Bed Time</button>
+   <div class="bedTimeText">
     <p id="bedTime">
         Bedtime is: ?
     </p>
-
+</div>
+</div>
     <p>Remember the average adult needs 6-9 hours sleep per night. So you can decide what is best for you.</p>
 
     <h2>Step three – find a going to bed routine that works for you</h2>
 
     <p>There is no ‘right way’ to wind down for bed, everyone will find something different to help them relax and get ready. Giving yourself a few regular things that you do each night before bed can help let your body and mind know it is time to switch off, even if they are very small. The examples below show a few ways someone might get ready and relax for sleep.</p>
 
-    <h3>Example 1 - sleep goal: 8 hours</h3>
 
+ <div class="routineExamples">   
+    <div id="routineExample1">
+    <h3>Example 1 - sleep goal: 8 hours</h3>
     <table class='table'>
         <tr>
             <td>22:00</td>
@@ -94,10 +102,10 @@
             <td>07:00</td>
             <td>Alarm wake up</td>
         </tr>
-
-    </table>
-
     
+    </table>
+</div>
+<div id="routineExample2">
     <h3>Example 2 - sleep goal: 7 hours</h3>
 
     <table class='table'>
@@ -127,10 +135,11 @@
         </tr>
 
     </table>
-
+</div>
+</div>
     <p>You can find some more relaxation ideas that might form part of your personal routine on our <a href="Relaxation.html">Relaxtion Page</a></p>
     <!---check link in above-->
-
+</div>
 </body>
 
 </html>

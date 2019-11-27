@@ -1,28 +1,93 @@
+
+
 body {
     font-family: 'Poppins', sans-serif;
+    background-image: url("starBackground.jpeg");
+    background-color: paleturquoise;
+    margin: 80px
 
 }
 
+.text{
+background-color: rgba(0,0,0,0.75);
+padding: 20px;
+color: white;
+
+}
 p {
     font-weight: 200;
-    font-size: 30px;
+    font-size: 20px;
+    
 }
  h1{
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
  }
 
  .navBar{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    background-color: cornflowerblue;
+    padding: 40px;
+    background-color: rgba(0,0,0,0.75) ;
  }
 
  .navLink{
-     background-color: darkgrey;
-     border: 20px solid darkgrey;
+     background-color: white;
+     border: 20px solid white;
      border-radius: 5px;
-     width: 100px;
+     width: 150px;
      text-align: center;
+     color:black;
+     font-weight: 700;
+     font-size: 25px;
+     text-decoration: none;
  }
+
+ .childText{
+    background-color: rgba(0,0,0,0.75);
+    padding: 20px;
+    color: white;
+ }
+
+ .sleepCalc{
+     border: 10px  rgba(255,255,255,0.75);
+     padding-left: 100px;
+     padding-right: 100px;
+    width: 200px;
+     background-color: rgba(255,255,255,0.75);
+     color: black;     
+     border-radius: 5px;
+ }
+
+ .bedTimeText{
+     font-weight: 100;
+ }
+
+ .result{
+
+ }
+
+ .routineExamples {
+background-color:rgba(255,255,255,0.75);
+border-radius: 5px;
+flex-direction: row;
+align-items: stretch;
+color: black;
+display: flex;
+ }
+
+ #routineExample1, #routineExample2 {
+     margin: 5px;
+     padding: 35px;
+ }
+
+ .table {
+     border-spacing: 8px;
+     vertical-align: top;
+    
+ }
+
+td {
+    vertical-align: top;
+}

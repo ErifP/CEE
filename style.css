@@ -12,7 +12,7 @@ body {
 
 .text{
 background-color: rgba(0,0,0,0.75);
-padding: 20px;
+padding: 40px;
 color: white;
 
 }
@@ -48,7 +48,7 @@ p {
 
  .childText{
     background-color: rgba(0,0,0,0.75);
-    padding: 20px;
+    padding: 40px;
     color: white;
  }
 
@@ -75,6 +75,7 @@ background-color:rgba(255,255,255,0.75);
 border-radius: 5px;
 flex-direction: row;
 align-items: stretch;
+justify-content: space-evenly;
 color: black;
 display: flex;
  }
@@ -94,52 +95,19 @@ td {
     vertical-align: top;
 }
 
-.exerciseExamples1 {
+.exerciseExamples {
     background-color:rgba(255,255,255,0.75);
     border-radius: 5px;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
     color: black;
     display: flex;
-    text-align: center;
      }
     
-     #exerciseExample2, #exerciseExample3 {
+     #exerciseExample1, #exerciseExample2 {
          margin: 5px;
-         padding: 40px;
-         text-align: center;
+         padding: 35px;
      }
-
-     .exerciseExamples2 {
-        background-color:rgba(255,255,255,0.75);
-        border-radius: 5px;
-        flex-direction: row;
-        color: black;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        text-align: center;
-         }
-        
-         #exerciseExample4, #exerciseExample5 {
-            margin: 5px;
-            padding: 35px;
-            width: 500px;
-            text-align: center;
-         }
     
-            .exerciseExamples3 { 
-                border-radius: 5px;
-                flex-direction: row;
-                color: black;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
-                text-align: center;
-                 }
-         
-         #title {
-            margin: 5px;
-            padding: 40px;
-            text-align: center;
-         }
+

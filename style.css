@@ -4,7 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background-image: url("starBackground.jpeg");
     background-color: paleturquoise;
-    margin: 80px
+    margin: 80px;
+    text-decoration: none;
+    border-radius: 5px;
 
 }
 
@@ -91,3 +93,53 @@ display: flex;
 td {
     vertical-align: top;
 }
+
+.exerciseExamples1 {
+    background-color:rgba(255,255,255,0.75);
+    border-radius: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    display: flex;
+    text-align: center;
+     }
+    
+     #exerciseExample2, #exerciseExample3 {
+         margin: 5px;
+         padding: 40px;
+         text-align: center;
+     }
+
+     .exerciseExamples2 {
+        background-color:rgba(255,255,255,0.75);
+        border-radius: 5px;
+        flex-direction: row;
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: center;
+         }
+        
+         #exerciseExample4, #exerciseExample5 {
+            margin: 5px;
+            padding: 35px;
+            width: 500px;
+            text-align: center;
+         }
+    
+            .exerciseExamples3 { 
+                border-radius: 5px;
+                flex-direction: row;
+                color: black;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                text-align: center;
+                 }
+         
+         #title {
+            margin: 5px;
+            padding: 40px;
+            text-align: center;
+         }

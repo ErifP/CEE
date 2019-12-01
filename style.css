@@ -23,7 +23,7 @@ a:link {
 }
 
 a:visited {
-    color: teal;
+    color:white;
 }
 
 a:hover {
@@ -67,6 +67,15 @@ p {
      text-decoration: none;
  }
 
+ div.navBar a:link {
+     color: black;
+ }
+
+ div.navBar a:visited {
+    color: black;
+}
+
+
  .navBarChild{
     display: flex;
     justify-content: space-evenly;
@@ -88,6 +97,14 @@ p {
      font-size: 12px;
      text-decoration: none;
  }
+
+ div.navBarChild a:link {
+    color: black;
+}
+
+div.navBarChild a:visited {
+   color: black;
+}
 
  .childText{
     background-color: rgba(0,0,0,0.75);

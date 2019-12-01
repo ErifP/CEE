@@ -9,6 +9,17 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300|Tomorrow&display=swap" rel="stylesheet">
 </head>
 
+<header>
+        <div class="navBarChild">
+                <a class="navLinkChild" href="index.html">Home</a>
+                <a class="navLinkChild" href="Diet.html">Diet</a>
+                <a class="navLinkChild" href="Exercise.html">Exercise</a>
+                <a class="navLinkChild" href="Relaxation.html">Relaxation</a>
+                <a class="navLinkChild" href="Techology.html">Technology</a>
+            </div>
+
+</header>
+
 <body>
 <div class="childText">
     <h1>Sleep Routines</h1>
@@ -39,6 +50,7 @@
     <div class="sleepCalc">
     <p>Wake up at:
     <select id="wakeUpHour">
+        <option value="0">Select wake up time</option>
         <option value="5">5am</option>
         <option value="6">6am</option>
         <option value="7">7am</option>
@@ -51,6 +63,7 @@
 
     <p>Sleep for:
     <select id="sleepFor">
+        <option value="0">Select sleep length</option>
         <option value="5">5 hours</option>
         <option value="6">6 hours</option>
         <option value="7">7 hours</option>
@@ -60,7 +73,7 @@
     </select>
     </p>
 
-    <button onclick="calculateBedTime()">Calculate Bed Time</button>
+    <button onclick="calculateBedTime()">Calculate</button>
    <div class="bedTimeText">
     <p id="bedTime">
         Bedtime is: ?

@@ -3,8 +3,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url("starBackground.jpeg");
-    background-color: paleturquoise;
-    margin: 80px;
     text-decoration: none;
     border-radius: 5px;
 
@@ -12,10 +10,30 @@ body {
 
 .text{
 background-color: rgba(0,0,0,0.75);
+margin-left: 80px;
+margin-right: 80px;
+margin-top: 80px;
 padding: 40px;
 color: white;
 
 }
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:hover {
+    color: teal;
+}
+
+a:active {
+    color: blue;
+}
+
 p {
     font-weight: 200;
     font-size: 20px;
@@ -30,6 +48,9 @@ p {
  .navBar{
     display: flex;
     justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
     padding: 40px;
     background-color: rgba(0,0,0,0.75) ;
  }
@@ -46,33 +67,82 @@ p {
      text-decoration: none;
  }
 
+ .navBarChild{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.75) ;
+ }
+
+ .navLinkChild{
+     background-color: white;
+     border: 10px solid white;
+     border-radius: 5px;
+     width: 100px;
+     text-align: center;
+     color:black;
+     font-weight: 600;
+     font-size: 12px;
+     text-decoration: none;
+ }
+
  .childText{
     background-color: rgba(0,0,0,0.75);
+    margin-left:80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
     padding: 40px;
     color: white;
  }
 
  .sleepCalc{
-     border: 10px  rgba(255,255,255,0.75);
-     padding-left: 100px;
-     padding-right: 100px;
-    width: 200px;
-     background-color: rgba(255,255,255,0.75);
+     border: 30px  black;
+     padding-left: 60px;
+     padding-right: 60px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+    width: 170px;
+     background-color: rgba(255,255,255,0.55);
      color: black;     
-     border-radius: 5px;
+     border-radius: 25px;
+
  }
 
  .bedTimeText{
      font-weight: 100;
  }
 
+ button {
+     border-radius: 5px;
+     font-size: 20px;
+     font-weight: 700;
+     width: 160px;
+     font-family: 'Poppins', sans-serif;
+ }
+
  .result{
+     font-size: 50;
+     font-weight: 800;
+
 
  }
 
+option {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+select {
+    font-family: 'Poppins', sans-serif;
+
+}
+
  .routineExamples {
-background-color:rgba(255,255,255,0.75);
-border-radius: 5px;
+background-color:rgba(255,255,255,0.55);
+border-radius: 25px;
 flex-direction: row;
 align-items: stretch;
 justify-content: space-evenly;

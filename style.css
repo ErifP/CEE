@@ -282,6 +282,14 @@ td {
     justify-content: space-evenly;
 }
 
+.negatives3 {
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 25px;
+    color: white;
+    align-content: center;
+    padding:10px;
+}
+
 .positives1 {
     background-color: rgba(0,0,0,0.75);
     border-radius: 25px;

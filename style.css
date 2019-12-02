@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url("starBackground.jpeg");
+    background-image: url("stars-desktop-wallpaper.jpg");
     text-decoration: none;
     border-radius: 5px;
 
@@ -154,24 +154,71 @@ option {
 
 select {
     font-family: 'Poppins', sans-serif;
-
 }
 
+.pilates {
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.pilates2 {
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
+    flex-direction: column;
+    color: black;
+    display: flex;
+    border: 20px;
+    align-content: center;
+    padding: 35px;
+}
+
+.yoga {
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    color: black;
+    display: flex;
+    align-content: center;
+}
+
+.relaxation {
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    color: black;
+    display: flex;
+    align-content: center;
+}
  .routineExamples {
-background-color:rgba(255,255,255,0.55);
-border-radius: 25px;
-flex-direction: row;
-align-items: stretch;
-justify-content: space-evenly;
-color: black;
-display: flex;
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    color: black;
+    display: flex;
+    align-content: center;
  }
 
  #routineExample1, #routineExample2 {
      margin: 5px;
      padding: 35px;
  }
-
+ 
  .table {
      border-spacing: 8px;
      vertical-align: top;
@@ -183,8 +230,8 @@ td {
 }
 
 .exerciseExamples {
-    background-color:rgba(255,255,255,0.75);
-    border-radius: 5px;
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-evenly;
@@ -192,9 +239,144 @@ td {
     display: flex;
      }
     
-     #exerciseExample1, #exerciseExample2 {
-         margin: 5px;
-         padding: 35px;
+#exerciseExample1, #exerciseExample2 {
+    margin: 5px;
+    padding: 35px;
+    }
+    
+.exerciseExamples1 {
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    color: black;
+    display: flex;
      }
+        
+ #exerciseExample3, #exerciseExample4 {
+    margin: 5px;
+    padding: 35px;
+    }
     
 
+.negatives1 {
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-content: center;
+    padding:10px;
+}
+
+.negatives2 {
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-content: center;
+    padding:10px;
+    font-weight: 800;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.positives1 {
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    font-weight: 800;
+    }
+    .positives2 {
+        background-color: rgba(0,0,0,0.75);
+        border-radius: 25px;
+        color: white;
+        display: flex;
+        align-content: center;
+        padding:10px;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-evenly;
+        }
+    .positives3 {
+            background-color: rgba(0,0,0,0.75);
+            border-radius: 25px;
+            color: white;
+            display: flex;
+            align-content: center;
+            padding:10px;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: space-evenly;
+            }        
+
+.appsTitle{
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    font-weight: 800;
+    }
+
+.apps {
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 25px;
+    flex-direction: row;
+     align-items: stretch;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     color: black;
+     display: flex;
+     align-content: center;
+     text-align: center;
+ }
+                    
+#app1, #app2, #app3, #app4 {
+    margin: 5px;
+    padding: 35px;
+    width: 300px;
+  }
+                
+  .productsTitle{
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    font-weight: 800;
+    }
+            
+    .products {
+        background-color:rgba(255,255,255,0.25);
+        border-radius: 25px;
+        flex-direction: row;
+         align-items: stretch;
+         justify-content: space-evenly;
+         flex-wrap: wrap;
+         color: black;
+         display: flex;
+         align-content: center;
+         text-align: center;
+     }
+                        
+    #prod1, #prod2, #prod3, #prod4 {
+        margin: 5px;
+        padding: 35px;
+        width: 300px;
+      }

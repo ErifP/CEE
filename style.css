@@ -399,9 +399,9 @@ td {
     }
 
     .dietTitle{
-        background-color: rgba(255,255,255,0.5);
+        background-color:rgba(0,0,0,0.75);
         border-radius: 25px;
-        color: black;
+        color: white;
         display: flex;
         align-content: center;
         padding: 10px;
@@ -419,10 +419,10 @@ td {
         justify-content: space-evenly;
         color: black;
         display: flex;  
-    
         }
                  
     #dietExample1, #dietExample2 {
         margin: 5px;
         padding: 35px;
+        
         }

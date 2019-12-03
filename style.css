@@ -78,14 +78,15 @@ p {
  .navBarChild{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 20px;
     padding: 20px;
     background-color: rgba(0,0,0,0.75);
     position: fixed;
     top: 0px;
-    width: 80%;
+    width: 100%;
+    align-content: center;
  }
 
  .navLinkChild{
@@ -159,11 +160,11 @@ select {
 }
 
 .pilates {
-    background-color:rgba(255,255,255,0.5);
+    background-color:rgba(0,0,0,0.75);
     border-radius: 25px;
     flex-direction: row;
     justify-content: space-evenly;
-    color: black;
+    color: white;
     display: flex;
     align-content: center;
     padding: 10px;
@@ -185,23 +186,23 @@ img.center {
 }
 
 .yoga {
-    background-color:rgba(255,255,255,0.5);
+    background-color:rgba(0,0,0,0.75);
     border-radius: 25px;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-evenly;
-    color: black;
+    color: white;
     display: flex;
     align-content: center;
 }
 
 .relaxation {
-    background-color:rgba(255,255,255,0.5);
+    background-color:rgba(0,0,0,0.75);
     border-radius: 25px;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-evenly;
-    color: black;
+    color: white;
     display: flex;
     align-content: center;
 }
@@ -328,9 +329,9 @@ td {
             }        
 
 .appsTitle{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.75);
     border-radius: 25px;
-    color: black;
+    color: white;
     display: flex;
     align-content: center;
     padding: 10px;
@@ -360,9 +361,9 @@ td {
   }
                 
   .productsTitle{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.75);
     border-radius: 25px;
-    color: black;
+    color: white;
     display: flex;
     align-content: center;
     padding: 10px;
